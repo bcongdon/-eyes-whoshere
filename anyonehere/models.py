@@ -1,7 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import select, func
 from sqlalchemy.orm import column_property
-from utils import offline_timedelta
+from .utils import offline_timedelta
 from datetime import datetime
 
 
